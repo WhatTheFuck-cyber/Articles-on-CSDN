@@ -179,7 +179,7 @@ IV = C0
 以上两种破解方法都是没有MAC值校验的，在真实场景下是不现实的。
 
 以下提供的环境可能没有MAC，但是已经是在公开平台找的最好的了。【大家有好的资源可以dis我，邮箱2035334606@qq.com，我会把资源挂在github上的】  
-真实场景的POODLE模拟，请点击Padding Oracle Attack - CTF Wiki、Padding Oracle Attack(填充提示攻击)详解及验证 - 简书或参考《Security flaws induced by CBC Padding》（路径为../assets/）
+真实场景的POODLE模拟，请点击Padding Oracle Attack - CTF Wiki、Padding Oracle Attack(填充提示攻击)详解及验证 - 简书或参考《Security flaws induced by CBC Padding》（路径为..Articles/assets/document/Security flaws induced by CBC Padding.pdf）
 
 
 ## CRIME攻击介绍
@@ -211,7 +211,7 @@ SSLv2协议在处理RSA加密时存在两个关键问题：
 
 
 ## Raccoon攻击介绍
-
+Raccoon攻击是传输层安全性（TLS）协议中的一个定时漏洞攻击，利用TLS 1.2及更低版本加密协议中的旁通道，对TLS握手期间的Diffie - Hellman（DH）密钥交换过程采用定时攻击策略。由于TLS标准鼓励非恒定时间处理DH秘密，若服务器重用临时密钥，带有前导零的DH机密会使服务器KDF计算更快，导致服务器响应时间缩短。攻击者通过记录客户端和服务器之间的握手消息，发起新握手并测量服务器响应时间，识别出这种极端情况，进而破译原始握手的秘密密钥，最终解密TLS流量。
 
 ## RTT滥用介绍
 ### 一、RTT 滥用的核心机制

@@ -75,4 +75,4 @@ ESP先使用加密算法加密明文（根据模式选择是否加密IP头部），再生成ESP头部（含序列号
 IPsec SA 有生命周期（时间或数据量阈值，如 1 小时或 1GB），到期前 IKE 会自动重新协商（通过阶段 2 的快速模式），生成新的 IPsec SA（无缝切换，不中断通信）；过期的 SA 则被销毁，释放资源。
 
 
-本文章归属 github 用户 WhatTheFuck-cyber
+本文章归属 github 用户 WhatTheFuck-cyber 
